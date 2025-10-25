@@ -1,5 +1,3 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500&display=swap");
 
 * {
@@ -171,7 +169,6 @@ main {
 
 .btns a {
   padding: 10px 20px;
-  background: red;
   cursor: pointer;
   text-decoration: none;
   color: white;
@@ -434,7 +431,6 @@ main {
   font-size: 3em;
   font-weight: 700;
   color: #00d9ff;
-  margin-bottom: 10px;
 }
 
 .stat-label {
@@ -789,6 +785,7 @@ main {
   /* Features Card */
   .features {
     grid-template-columns: 1fr;
+    margin-top: 100px;
   }
 
   .section-label {
@@ -804,6 +801,10 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .bio-details {
+    grid-template-columns: 1fr;
+  }
+
   /* Stats Section */
   .stats {
     grid-template-columns: 1fr;
@@ -812,6 +813,13 @@ main {
   .stat-card {
     flex-direction: column;
   }
+
+  /* Skill Section */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Portfolio Section */
 
   .portfolio-grid {
     grid-template-columns: 1fr;
